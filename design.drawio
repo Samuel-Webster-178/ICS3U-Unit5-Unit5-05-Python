@@ -1,35 +1,103 @@
 <mxfile host="65bd71144e">
     <diagram id="aqkya4TFRdpiTSBKbrii" name="Flowchart">
-        <mxGraphModel dx="1074" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="716" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="7Z-LrOooxTyzb09muiCP-0"/>
                 <mxCell id="7Z-LrOooxTyzb09muiCP-1" parent="7Z-LrOooxTyzb09muiCP-0"/>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-7" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-2" target="7Z-LrOooxTyzb09muiCP-3">
+                <mxCell id="7Z-LrOooxTyzb09muiCP-7" value="" style="edgeStyle=none;html=1;" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-2" target="7Z-LrOooxTyzb09muiCP-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                <mxCell id="7Z-LrOooxTyzb09muiCP-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
                     <mxGeometry x="364" y="80" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-8" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-3" target="7Z-LrOooxTyzb09muiCP-4">
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-3" target="0">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-3" value="Get radius" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
-                    <mxGeometry x="364" y="170" width="100" height="60" as="geometry"/>
+                <mxCell id="7Z-LrOooxTyzb09muiCP-3" value="Get full_name" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
+                    <mxGeometry x="326" y="170" width="176" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-9" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-4" target="7Z-LrOooxTyzb09muiCP-5">
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="1050" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7Z-LrOooxTyzb09muiCP-4" value="address = full_name, &quot;\n&quot;, apartment_number, &quot;-&quot;, street_number, street_name, &quot;\n&quot;, city, province, &quot; &quot;, postal code" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
+                    <mxGeometry x="64" y="930" width="700" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7Z-LrOooxTyzb09muiCP-10" value="" style="edgeStyle=none;html=1;" parent="7Z-LrOooxTyzb09muiCP-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="1110" as="sourcePoint"/>
+                        <mxPoint x="414" y="1140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="0" target="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-4" value="circumference = radius * tau" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
-                    <mxGeometry x="292" y="260" width="244" height="60" as="geometry"/>
+                <mxCell id="0" value="Get appartment_number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="282" y="260" width="264" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-10" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-5" target="7Z-LrOooxTyzb09muiCP-6">
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="1" target="2">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-5" value="Display circumference" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
-                    <mxGeometry x="331" y="350" width="166" height="60" as="geometry"/>
+                <mxCell id="1" value="Get street_number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="287" y="350" width="254" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-6" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
-                    <mxGeometry x="364" y="440" width="100" height="60" as="geometry"/>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Get street_name" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="307" y="440" width="214" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Get city" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="364" y="530" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Get province" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="364" y="620" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="5" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Get postal code" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="347" y="710" width="134" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414.00000000000045" y="1050" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1140" y="1020"/>
+                            <mxPoint x="414" y="1020"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="address = full_name, &quot;\n&quot;, street_number, street_name, &quot;\n&quot;, city, province, &quot; &quot;, postal code" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="790" y="930" width="700" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="17" target="7Z-LrOooxTyzb09muiCP-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="17" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="if apartment_number == &quot;&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="283" y="800" width="263" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="23" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Return address" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="331" y="1140" width="166" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="364" y="1230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="address = upper(address)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="64" y="1050" width="700" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
